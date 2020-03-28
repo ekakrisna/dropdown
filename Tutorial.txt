@@ -1,0 +1,37 @@
+Command Terminal
+1. install laravel 5.6 or ++
+	composer create-project --prefer-dist laravel/laravel dropdown "5.6.*"
+	i already install my laravel 5.6
+	like this video..
+2. Make sure your database in .env
+	database name in this project laraveldropdown
+3. Make Controler
+	php artisan make:controller DynamicDependent
+	and i already make controller like this video...
+	and then
+3. Make Blade in resources > view
+	like this video...
+	name : dropdown.blade.php
+4. Make Migration 
+	php artisan make:migration provinces
+	and then migrate your table	
+5. Migrate database table
+	use this command
+	php artisan migrate
+	after this now you see you table in your database like this...
+6. Insert provinces data, regencies data, districts data, and villages data
+	Indonesia data down bellow !!!
+	waiting inserting data....
+	after that back to controller to see code...
+	now go to your view blade... and see my code...
+	im using ajax for get data from controller... like this....
+	ok for view already done...
+6. Make sure your router in routes > web.php
+	After that start your laravel project...	
+7. Start laravel
+	php artisan serve
+	http://127.0.0.1:8000/dropdown
+	Yeahh this project already done!!! 
+	Thank you for watching
+	dont forget to subsribe, like, comment 
+	Thank youu !!!
